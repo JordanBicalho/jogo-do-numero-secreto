@@ -60,8 +60,8 @@ function gerarNumeroAleatorio() {
 }
 
 function limparCampo() {
-    chute = document.querySelector('input');
-    chute.value = '';
+    let campo = document.querySelector('input');
+    campo.value = '';
 }
 
 function reiniciarJogo() {
